@@ -1,0 +1,15 @@
+app:
+  name: rhug-backend-poi-backend-app
+  namespace: rhug-backend
+  cluster: .apps.cluster-gqd95.gqd95.sandbox1540.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/ultraJeffOrg/rhug-backend-backend
+  org: ultraJeffOrg
+  name: rhug-backend-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: rhug-backend/poi-backend-app
+  tag: latest
